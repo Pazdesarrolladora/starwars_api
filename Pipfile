@@ -9,6 +9,7 @@ sqlalchemy = "*"
 psycopg2 = "*"
 flask-admin = "*"
 flask-sqlalchemy = "*"
+flask-migrate = "*"
 
 [dev-packages]
 

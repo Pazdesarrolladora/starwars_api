@@ -9,7 +9,7 @@ from models import db, User, Personaje, Planeta, Vehiculo, Favorite
 
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:postgres@localhost/postgres'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:postgres@localhost/starwars'
 
 # Inicializar la base de datos
 db.init_app(app)
